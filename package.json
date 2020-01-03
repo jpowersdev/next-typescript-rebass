@@ -1,0 +1,24 @@
+{
+  "name": "next-typescript-rebass",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/styled": "^10.0.27",
+    "emotion-theming": "^10.0.27",
+    "next": "9.1.6",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "rebass": "^4.0.7",
+    "styled-system": "^5.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.2",
+    "@types/react": "^16.9.17",
+    "typescript": "^3.7.4"
+  }
+}
