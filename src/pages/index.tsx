@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Navigation from '../components/Navigation';
+import Navigation from 'src/components/Navigation';
 import { Box, Heading, Text, Link } from 'rebass';
 
 const CardTitle = props => <Heading as='h3' variant='card.title' {...props} />;

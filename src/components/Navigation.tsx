@@ -8,10 +8,10 @@ interface NavLink {
   key?: string;
 }
 
-const links = ([
+const links = [
   { href: 'https://zeit.co/now', label: 'ZEIT' },
   { href: 'https://github.com/zeit/next.js', label: 'GitHub' }
-] as NavLink[]).map(link => {
+].map((link: NavLink) => {
   link.key = `nav-link-${link.href}-${link.label}`;
   return link;
 });
@@ -20,7 +20,7 @@ const Navigation = () => (
   <Box as='nav' variant='nav'>
     <Box as='ul' variant='nav.ul'>
       <Box as='li' variant='nav.li'>
-        <NextLink href='/'>
+        <NextLink href='/' passHref>
           <Link variant='nav.a'>Home</Link>
         </NextLink>
       </Box>

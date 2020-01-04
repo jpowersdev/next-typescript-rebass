@@ -1,6 +1,6 @@
 import { Global, css } from '@emotion/core';
 import { ThemeProvider } from 'emotion-theming';
-import theme from '../theme';
+import theme from 'src/theme';
 
 function App({ Component, pageProps }) {
   return (

@@ -10,7 +10,8 @@ export default {
   },
   space: [0, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
-    body: 'system-ui, sans-serif',
+    body:
+      '-apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica, sans-serif',
     heading: 'inherit',
     monospace: 'Menlo, monospace'
   },
